@@ -2,6 +2,8 @@ package hoidanit;
 
 public class HelloWorld {
 	public static void main(String[] args) {
-		System.out.println("Hello world with java and Hoi Dan It");
+		int x = 9;
+		int y = 12;
+		System.out.println(Math.max(x, y));
 	}
 }
